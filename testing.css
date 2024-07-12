@@ -1,0 +1,60 @@
+body{
+    margin:0;
+    background:pink;
+    height:100%;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+}
+
+svg.rose{
+    display:block;
+    width: 600px;
+    padding-top: 10em;
+}
+
+#maskedSvg {
+    mask-image: url(#rose);
+}
+
+
+/* This i s a comment, I actually don't know the difference of using comments here 
+in VScode, I think it depend on what language you are using. */
+
+
+/* Is this even possible */
+
+market-container{
+
+    background:orange;
+    height:50%;
+    display:grid;
+    justify-content:space-between;
+    align-items:last baseline;
+
+}
+
+css1{
+
+    background:transparent;
+    display: block;
+    gap: 23;
+    empty-cells: hide;
+    height:20%;
+
+
+}
+
+css2{
+    background-color: beige;
+    height: auto;
+    display: block;
+    bottom: 20;
+    max-width: fit-content;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: Tahoma;
+
+}
+
+/* This is just a comment 
